@@ -1,0 +1,235 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Comforta/comfortaa-v19-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'),
+       url('../fonts/Comforta/comfortaa-v19-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Comforta/comfortaa-v19-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Comforta/comfortaa-v19-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Comforta/comfortaa-v19-latin-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
+}
+body{
+    font-family:'Josefin Sans','sans-serif';
+    font-style: normal;
+    font-weight:500;
+
+}
+.first-info,
+.firsty-info{
+    overflow: hidden;
+}
+
+.info-card{
+    height: 120%;
+    background-image: url("../images/art.jpg");
+    background-size: cover;
+    transition: all 0.5s ease;
+    border: solid #FFFFFF;
+    border-radius: 0px;
+    margin-left: 6em;
+}
+
+.info-card:hover,
+.info-card2:hover,
+.info-card3.hover,
+.info-card4.hover,
+.sixth-card:hover,
+.seventh-card:hover{
+    transform: scale(1.1);
+}
+
+.info-card2{
+    height: 120%;
+    background-image: url("../images/art2.jpg");
+    background-size: cover;
+    border: solid #FFFFFF;
+    transition: all 0.5s ease;
+    border-radius: 0px;
+    margin-left: -1em;
+    margin-right: 2em;
+    padding:2em;
+}
+.move{
+    margin-left: -4em;
+}
+
+.secondrow{
+    margin-top: 7em;
+}
+
+.info-card3{
+    height: 12em;
+    width:100%;
+    background-image: url("../images/art3.jpg");
+    background-size: cover;
+    transition: all 0.5s ease;
+    border: solid #FFFFFF;
+    border-radius: 0px;
+    margin-right: 4em;
+    margin-left:-2em;
+
+}
+
+.fifth-card{
+    border: solid black 13px;
+    border-radius: 0px;
+    height:20em;
+}
+
+.fifth-card > content-text >  button{
+    padding-left: 6em;
+}
+
+.left-image{
+    background-image: url("../images/her.jpg");
+    background-size: cover;
+    transition: all 0.5s ease;
+    background-position: center;
+}
+
+.left-image:hover{
+    transform: scale(1.1);
+}
+
+.centre{
+    background-color: #FFFFFF;
+    margin-top: -2em;
+}
+
+.info-card4{
+    height: 12em;
+    width:100%;
+    background-image: url("../images/art5.jpg");
+    transition: all 0.5s ease;
+    background-size: contain;
+    border: solid #FFFFFF;
+    border-radius: 0px;
+    margin-right: 4em;
+    margin-left:-2em;
+
+
+
+}
+
+.push-down{
+    margin-top: 5em;
+    background-color: #FFFFFF;
+    border: solid #FFFFFF;
+}
+
+.content{
+    height:12em;
+    margin-top: 12em;
+    padding-left: 1em;
+    background-color: #FFFFFF;
+    border: solid black;
+    border-radius: 0px;
+}
+
+.content-text{
+    padding:10px;
+    padding-top: 35px;
+
+}
+.seventh-card,
+.sixth-card{
+    height:120%;
+    background-image: url("../images/her3.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+    border: solid black 10px;
+    border-radius: 0px;
+    background-size: cover;
+    height:20em;
+}
+
+.seventh-card{
+    background-image: url("../images/white.jpg");
+}
+
+.content-text-fifth{
+    margin-left: 2em;
+    padding-top: 3em;
+}
+
+.down-push{
+    margin-top: 9em;
+}
+
+.thirdrow{
+    margin-top: 4em;
+}
+
+.thirdrow > button{
+    border-radius: 25px;
+    background-color: white;
+    border: solid 5px black;
+    color: black;
+    width:20%;
+}
+
+.thirdrow > button > a {
+    color: black;
+}
+
+
+.thirdrow > button:hover{
+    background-color: black;
+    border: solid 5px white;
+    transition: all 0.2s ease;
+
+
+}
+.thirdrow > button:hover > a{
+    color: white;
+}
+
+.first_title{
+    margin-top:1em;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: bold;
+}
+
+.cols{
+    padding-left:3.5em;
+}
+.cham{
+    margin: 2em;
+    border: solid white 5px;
+    margin-left: 2em;
+}
+footer .fab,
+footer .icon {
+    margin-right:1em;
+}
+
+footer {
+    background-color: #191919;
+    color: #ADADAD;
+    margin-top:-20px;
+    margin-left: -3em;
+    margin-right: -3em;
+}
+footer h5,
+footer img {
+    margin-top: 3em;
+    font-weight: bold;
+}
+
+footer ul {
+    margin-bottom: 3em;
+}
+footer a {
+    font-weight: 300;
+    color: white;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a{
+    color:black;
+}

@@ -1,0 +1,44 @@
+.content-text{
+    padding:10px;
+    padding-top: 35px;
+
+}
+
+.card{
+    margin: 2em;
+    border-radius:0px;
+
+}
+
+.back{
+    background-image: url("../images/her.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+    border-radius:0px;
+    border-right:solid black;
+}
+
+.down-i {
+    padding-top:5em;
+    color:white;
+    opacity:0.7;
+}
+
+.fav-icon{
+    padding-top: 6em;
+    color: #5A5A5A;
+}
+
+.cont-button:hover{
+    background-color: black;
+    border: solid 5px white;
+    transition: all 0.2s ease;
+}
+.cont-button{
+    margin-bottom: 2em;
+    background-color: white;
+}
+.cont-button:hover > a{
+    color: white;
+}

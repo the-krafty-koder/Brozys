@@ -1,0 +1,120 @@
+{%  extends "base.html" %}
+
+{% block body %}
+    <div class="move">
+    <br>
+
+        <div class="row ">
+
+            <div class="col-md-5">
+                <div class="first_info">
+                    <div class="card info-card img-thumbnail">
+                        <div class="row ">
+                            <div class="offset-md-3 col-md-9 content  img-thumbnail">
+                                <div class="content-text">
+                                    <button class="btn btn-sm btn-outline-info float-right"><i class="fas fa-tags"></i>  <a href="" class="headline">{{ list.category.name }}</a></button>
+                                    <p class="first_title">{{ list.title }}</p>
+                                    <p>{{ list.date_created }}  {{ list.author }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="first-info">
+                    <div class="card info-card2 img-thumbnail">
+                        <div class="text-center centre">
+                            <button class="btn btn-sm btn-outline-info float-right"><i class="fas fa-tags"></i>  <a href="" class="headline">{{ list.category.name }}</a></button>
+                            <p class="first_title"><strong>{{ list2.title }}</strong></p>
+                            <p>{{ list2.date_created }}  {{ list2.author }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="firsty-info">
+                        <div class="card info-card3 img-thumbnail">
+                            <div class="row ">
+                                <div class="offset-md-1 col-md-10 ">
+                                    <div class="push-down text-center">
+                                        <button class="btn btn-sm btn-outline-info float-right"><i class="fas fa-tags"></i>  <a href="" class="headline">{{ list.category.name }}</a></button>
+                                        <p class="first_title"><strong>{{ list3.title }}</strong></p>
+                                        <p>{{ list3.date_created }}  {{ list3.author }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="firsty-info">
+                        <div class="card info-card4 img-thumbnail">
+                            <div class="row ">
+                                <div class="offset-md-1 col-md-10 pull-right">
+                                    <div class="push-down text-center">
+                                        <button class="btn btn-sm btn-outline-info  float-right"><i class="fas fa-tags"></i>  <a href="" class="headline">{{ list.category.name }}</a></button>
+                                        <p class="first_title"><strong>{{ list3.title }}</strong></p>
+                                        <p>{{ list3.date_created }}  {{ list3.author }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container secondrow">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="fifth-card row first-info img-thumbnail">
+                    <div class="float-left col-md-5 left-image">
+
+                    </div>
+                    <div class="content-text-fifth float-right">
+                        <button class="btn btn-sm btn-outline-info "><i class="fas fa-tags"></i>  <a href="" class="headline">{{ list.category.name }}</a></button><br>
+                        <p class="first_title">{{ list4.title }}</p>
+                        <p>{{ list4.date_created }}  {{ list4.author }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="first-info">
+                    <div class="sixth-card img-thumbnail">
+                        <div class="content-text down-push">
+                            <button class="btn btn-sm btn-outline-info "><i class="fas fa-tags"></i>  <a href="" class="headline">{{ list.category.name }}</a></button><br>
+                            <p class="first_title">{{ list4.title }}</p>
+                            <p>{{ list4.date_created }}  {{ list4.author.upper }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="first-info he">
+                    <div class="seventh-card img-thumbnail">
+
+                        <div class="content-text down-push">
+                            <button class="btn btn-sm btn-outline-info "><i class="fas fa-tags"></i>  <a href="" class="headline">{{ list.category.name }}</a></button><br>
+                            <p class="first_title">{{ list5.title }}</p>
+                            <p>{{ list5.date_created }}  {{ list5.author }}</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="thirdrow text-center">
+              <button class="btn  btn-dark">
+                  <a href="{% url 'page' 2 %}">More Articles   <i class="fas fa-arrow-circle-right"></i> </a>
+              </button>
+            <strong><hr></strong>
+        </div>
+    </div>
+
+{% endblock body %}

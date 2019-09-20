@@ -1,0 +1,79 @@
+.top-footer{
+    height:4em;
+    background-color: black;
+}
+
+
+.start{
+    margin-top: 1em;
+}
+
+.title{
+    margin-left: 2px;
+}
+
+.image-row{
+
+}
+
+.back-image{
+    background-image: url("../images/her.jpg");
+    background-position: center;
+    background-size: contain;
+    height:35em;
+    width:45em;
+}
+
+.hd{
+    height: 4px;
+    margin-left: -1em;
+    background-color: black;
+    margin-bottom: 2em;
+}
+
+.blog-content{
+    font-size: 250%;
+}
+
+.blog-content-row,
+.submit-button-row{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.comment-row{
+    margin-top: 8em;
+    margin-left: 2em;
+}
+
+.submit-button{
+    width:98%;
+    background-color: #cdd0d4;
+}
+.formy{
+    padding:1em;
+}
+.form{
+    width:120%;
+    margin-left: 1em;
+}
+.feedback{
+    background-color: #cdd0d4;
+    padding:1em;
+    opacity: 0.8;
+
+}
+.comment-block{
+    background-color: #cdd0d4;
+}
+
+.comment{
+    padding:10px;
+    padding-left:12px;
+}
+
+.comment-body{
+    margin-left:5em;
+}
+
+.fas { transform: scale(1.5,1); }
